@@ -1,0 +1,43 @@
+/* add a universal styling */
+* {
+  box-sizing: border-box;
+  font: gill sans;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* display welcome picture in center of page */
+#Greetings {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.form {
+    display: inline-block;
+    font-size: 25px;
+    width: 50%;
+    height: 50%;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+}
+
+.subject {
+    width: 50%;
+    height: 50%;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    display: block;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
